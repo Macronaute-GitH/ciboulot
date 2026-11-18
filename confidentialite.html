@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ciboulot · Règles de confidentialité</title>
+<style>
+  :root { --bordeaux:#4A0E0E; --creme:#F2E5D2; --dore:#E3A447; --texte:#2b1a17; --fond:#fffaf3; }
+  @media (prefers-color-scheme: dark) { :root { --texte:#f2e5d2; --fond:#1e1210; --bordeaux:#E3A447; } }
+  body { margin:0; background:var(--fond); color:var(--texte); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { color:var(--bordeaux); font-family:Georgia,serif; font-size:2rem; margin:0 0 4px; }
+  h2 { color:var(--bordeaux); font-family:Georgia,serif; font-size:1.3rem; margin:32px 0 8px; border-bottom:2px solid var(--dore); padding-bottom:4px; }
+  .date { opacity:.7; margin:0 0 24px; }
+  .resume { background:var(--creme); color:#2b1a17; border-left:4px solid var(--dore); padding:12px 16px; border-radius:6px; }
+  a { color:var(--bordeaux); }
+  li { margin:4px 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Règles de confidentialité de Ciboulot</h1>
+<p class="date">Dernière mise à jour : 18 novembre 2026</p>
+
+<div class="resume">
+<strong>En bref :</strong> Ciboulot fonctionne sans compte. Tes recettes, ton planning, ta liste de courses, ton carnet et tes photos restent sur ton téléphone.
+Il n'y a ni publicité, ni outil de mesure d'audience, et aucune donnée n'est vendue.
+Le développeur n'a pas de serveur et ne reçoit jamais tes données.
+</div>
+
+<h2>1. Qui sommes-nous ?</h2>
+<p>Ciboulot est une application de recettes, de menus de la semaine et de liste de courses, éditée par un développeur indépendant (particulier).
+Pour toute question : <a href="mailto:ciboulot.app@gmail.com">ciboulot.app@gmail.com</a>.</p>
+
+<h2>2. Les données rangées sur ton téléphone</h2>
+<p>Tout ce que tu saisis dans Ciboulot est enregistré <strong>uniquement sur ton téléphone</strong> : recettes, photos, collections, planning, liste de courses, placard, carnet des repas (notes et commentaires) et réglages.
+Le développeur n'y a pas accès.</p>
+<p>Android peut aussi inclure ces données dans la sauvegarde automatique de ton téléphone (sauvegarde Android liée à ton compte Google), selon tes réglages Android. Cette sauvegarde est gérée par Google, pas par Ciboulot.</p>
+
+<h2>3. Compte Google et sauvegarde sur Google Drive (facultatif)</h2>
+<p>Tu peux choisir de te connecter avec Google. C'est facultatif : toutes les fonctions de l'application marchent sans compte.
+Si tu te connectes :</p>
+<ul>
+  <li>Ciboulot lit ton <strong>adresse e-mail</strong>, seulement pour l'afficher dans les Réglages (pour que tu saches quel compte est utilisé).</li>
+  <li>Ciboulot range une <strong>sauvegarde de tes données</strong> (recettes, planning, carnet, réglages et photos) dans un espace réservé à l'application sur <strong>ton propre Google Drive</strong> (« dossier de données d'application »). Cet espace n'est visible que par Ciboulot. Ciboulot n'a accès à aucun autre fichier de ton Drive.</li>
+  <li>La sauvegarde se fait une fois par jour en Wi-Fi si quelque chose a changé, ou quand tu touches « Sauvegarder maintenant ». Les échanges avec Google sont chiffrés (HTTPS).</li>
+  <li>Ces données sont envoyées directement de ton téléphone vers ton Drive. Elles ne passent par aucun serveur du développeur, qui ne peut pas les lire.</li>
+</ul>
+<p>L'utilisation de Google Drive est soumise aux <a href="https://policies.google.com/privacy?hl=fr">règles de confidentialité de Google</a>.
+L'utilisation des données reçues des API Google respecte le <a href="https://developers.google.com/terms/api-services-user-data-policy">règlement sur les données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée.</p>
+
+<h2 id="suppression">4. Supprimer tes données</h2>
+<ul>
+  <li><strong>Données du téléphone :</strong> désinstalle Ciboulot, ou va dans Paramètres Android › Applications › Ciboulot › Stockage › Effacer les données.</li>
+  <li><strong>Sauvegarde Google Drive :</strong> dans Ciboulot, va dans Réglages › Compte Google › « Se déconnecter ». Puis, sur un ordinateur, ouvre <a href="https://drive.google.com/drive/settings">drive.google.com › Paramètres › Gérer les applications</a>, trouve Ciboulot, puis choisis Options › « Supprimer les données d'application cachées ».</li>
+  <li><strong>Retirer l'accès de Ciboulot à ton compte Google :</strong> va sur <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> et supprime Ciboulot.</li>
+</ul>
+<p>Ciboulot ne crée aucun compte chez le développeur : il n'y a donc rien d'autre à supprimer. Tu peux aussi écrire à <a href="mailto:ciboulot.app@gmail.com">ciboulot.app@gmail.com</a> pour toute question.</p>
+
+<h2>5. Ce que Ciboulot télécharge sur Internet</h2>
+<ul>
+  <li><strong>Tendances :</strong> Ciboulot télécharge régulièrement une liste de recettes de saison publiée sur GitHub Pages, et les photos de ces recettes depuis les sites qui les publient (Marmiton, CuisineAZ…). Ces sites reçoivent, comme pour toute page web, l'adresse IP de ton téléphone. Aucune donnée personnelle ne leur est envoyée.</li>
+  <li><strong>Importer une recette depuis un lien :</strong> quand tu le demandes, Ciboulot ouvre la page web que tu as choisie pour en lire la recette.</li>
+  <li><strong>« Voir sur le site » :</strong> le lien s'ouvre dans ton navigateur, sous les règles de ce site.</li>
+</ul>
+
+<h2>6. Lecture de texte sur une photo</h2>
+<p>Pour importer une recette depuis une photo, Ciboulot lit le texte <strong>sur ton téléphone</strong> grâce à l'outil ML Kit de Google. La photo n'est pas envoyée. ML Kit peut envoyer à Google des informations techniques anonymes (modèle du téléphone, version d'Android et de l'application, temps de traitement, erreurs, identifiant propre à l'installation) pour mesurer son bon fonctionnement. <a href="https://developers.google.com/ml-kit/android-data-disclosure">Détails chez Google</a>.</p>
+
+<h2>7. Partage</h2>
+<p>Ciboulot ne partage tes recettes que lorsque <strong>tu</strong> le demandes (bouton « Partager » : PDF, fichier ou texte), avec l'application et la personne que tu choisis.</p>
+
+<h2>8. Autorisations demandées</h2>
+<ul>
+  <li><strong>Internet :</strong> Tendances, import depuis un lien, sauvegarde Google Drive.</li>
+  <li><strong>Notifications :</strong> afficher les minuteurs du mode Cuisiner, même quand l'application est en arrière-plan.</li>
+  <li><strong>Vibreur :</strong> signaler la fin d'un minuteur.</li>
+  <li><strong>Appareil photo et photos :</strong> Ciboulot passe par l'appareil photo et le sélecteur de photos d'Android ; il ne voit que les photos que tu choisis.</li>
+</ul>
+
+<h2>9. Enfants</h2>
+<p>Ciboulot s'adresse aux adultes. Il ne collecte pas sciemment de données concernant des enfants.</p>
+
+<h2>10. Tes droits</h2>
+<p>Conformément au RGPD, tu as un droit d'accès, de rectification, d'effacement et d'opposition sur tes données. Comme elles restent sur ton téléphone et sur ton propre Google Drive, tu peux les consulter, les modifier et les supprimer toi-même à tout moment (voir la partie 4). Pour toute question, écris à <a href="mailto:ciboulot.app@gmail.com">ciboulot.app@gmail.com</a>. Tu peux aussi saisir la <a href="https://www.cnil.fr">CNIL</a>.</p>
+
+<h2>11. Modifications</h2>
+<p>Si ces règles changent, la nouvelle version sera publiée sur cette page avec sa date de mise à jour.</p>
+</main>
+</body>
+</html>
